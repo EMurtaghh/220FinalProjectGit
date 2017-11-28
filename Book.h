@@ -1,0 +1,8 @@
+//
+// Book.h
+//
+
+#ifndef INC_220FINALPROJECT_BOOK_H
+#define INC_220FINALPROJECT_BOOK_H
+
+#endif //INC_220FINALPROJECT_BOOK_H
