@@ -6,16 +6,26 @@
 #define INC_220FINALPROJECT_BOOK_H
 class Book{
 private:
+    std::string bookTitle;
+    std::string bookAuthor;
+    double bookPrice;
+    int haveCount;
+    int wantCount;
 
 public:
-    virtual ~Book(){};
-    virtual std::string getAuthor()=0;
-    virtual std::string getTitle()=0;
-    virtual bool inInventory()=0;
-    virtual int HaveCount()=0;
-    virtual int WantCount()=0;
-    virtual int setPrice()=0;
-    virtual std::string getPrice()=0;
+    //Constructor, Copy Constructor
+    Book(std::string bookTitle, std::string bookAuthor, double bookPrice, int haveCount, int wantCount);
+    //Book(Book& bookToCopy); Will be done when needed
+    //Getter functions
+    std::string getAuthor();
+    std::string getTitle();
+    int getHaveCount();
+    int getWantCount();
+    double getPrice();
+    //Setter functions
+    void setPrice(double newPrice);
+    //Other functions
+    bool inInventory();
 
 
 
