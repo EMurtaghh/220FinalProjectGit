@@ -123,6 +123,33 @@ depend:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/build
 .PHONY : 220FinalProject/fast
 
+Book.o: Book.cpp.o
+
+.PHONY : Book.o
+
+# target to build an object file
+Book.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Book.cpp.o
+.PHONY : Book.cpp.o
+
+Book.i: Book.cpp.i
+
+.PHONY : Book.i
+
+# target to preprocess a source file
+Book.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Book.cpp.i
+.PHONY : Book.cpp.i
+
+Book.s: Book.cpp.s
+
+.PHONY : Book.s
+
+# target to generate assembly for a file
+Book.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Book.cpp.s
+.PHONY : Book.cpp.s
+
 Bookstore.o: Bookstore.cpp.o
 
 .PHONY : Bookstore.o
@@ -150,6 +177,33 @@ Bookstore.cpp.s:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Bookstore.cpp.s
 .PHONY : Bookstore.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 220FinalProject"
+	@echo "... Book.o"
+	@echo "... Book.i"
+	@echo "... Book.s"
 	@echo "... Bookstore.o"
 	@echo "... Bookstore.i"
 	@echo "... Bookstore.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/220FinalProject.dir/main.cpp.o"
   "CMakeFiles/220FinalProject.dir/Bookstore.cpp.o"
+  "CMakeFiles/220FinalProject.dir/Book.cpp.o"
   "220FinalProject.pdb"
   "220FinalProject.exe"
   "lib220FinalProject.dll.a"

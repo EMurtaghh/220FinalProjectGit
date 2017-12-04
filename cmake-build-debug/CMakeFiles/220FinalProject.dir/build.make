@@ -57,9 +57,33 @@ include CMakeFiles/220FinalProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/220FinalProject.dir/flags.make
 
+CMakeFiles/220FinalProject.dir/main.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
+CMakeFiles/220FinalProject.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/main.cpp.o -c /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/main.cpp
+
+CMakeFiles/220FinalProject.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/main.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/main.cpp > CMakeFiles/220FinalProject.dir/main.cpp.i
+
+CMakeFiles/220FinalProject.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/main.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/main.cpp -o CMakeFiles/220FinalProject.dir/main.cpp.s
+
+CMakeFiles/220FinalProject.dir/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/220FinalProject.dir/main.cpp.o.requires
+
+CMakeFiles/220FinalProject.dir/main.cpp.o.provides: CMakeFiles/220FinalProject.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/220FinalProject.dir/main.cpp.o.provides
+
+CMakeFiles/220FinalProject.dir/main.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/main.cpp.o
+
+
 CMakeFiles/220FinalProject.dir/Bookstore.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/Bookstore.cpp.o: ../Bookstore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/Bookstore.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/220FinalProject.dir/Bookstore.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/Bookstore.cpp.o -c /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Bookstore.cpp
 
 CMakeFiles/220FinalProject.dir/Bookstore.cpp.i: cmake_force
@@ -81,17 +105,45 @@ CMakeFiles/220FinalProject.dir/Bookstore.cpp.o.provides: CMakeFiles/220FinalProj
 CMakeFiles/220FinalProject.dir/Bookstore.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/Bookstore.cpp.o
 
 
+CMakeFiles/220FinalProject.dir/Book.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
+CMakeFiles/220FinalProject.dir/Book.cpp.o: ../Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/220FinalProject.dir/Book.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/Book.cpp.o -c /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.cpp
+
+CMakeFiles/220FinalProject.dir/Book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/Book.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.cpp > CMakeFiles/220FinalProject.dir/Book.cpp.i
+
+CMakeFiles/220FinalProject.dir/Book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/Book.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.cpp -o CMakeFiles/220FinalProject.dir/Book.cpp.s
+
+CMakeFiles/220FinalProject.dir/Book.cpp.o.requires:
+
+.PHONY : CMakeFiles/220FinalProject.dir/Book.cpp.o.requires
+
+CMakeFiles/220FinalProject.dir/Book.cpp.o.provides: CMakeFiles/220FinalProject.dir/Book.cpp.o.requires
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Book.cpp.o.provides.build
+.PHONY : CMakeFiles/220FinalProject.dir/Book.cpp.o.provides
+
+CMakeFiles/220FinalProject.dir/Book.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/Book.cpp.o
+
+
 # Object files for target 220FinalProject
 220FinalProject_OBJECTS = \
-"CMakeFiles/220FinalProject.dir/Bookstore.cpp.o"
+"CMakeFiles/220FinalProject.dir/main.cpp.o" \
+"CMakeFiles/220FinalProject.dir/Bookstore.cpp.o" \
+"CMakeFiles/220FinalProject.dir/Book.cpp.o"
 
 # External object files for target 220FinalProject
 220FinalProject_EXTERNAL_OBJECTS =
 
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/main.cpp.o
 220FinalProject.exe: CMakeFiles/220FinalProject.dir/Bookstore.cpp.o
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/Book.cpp.o
 220FinalProject.exe: CMakeFiles/220FinalProject.dir/build.make
 220FinalProject.exe: CMakeFiles/220FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 220FinalProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 220FinalProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/220FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +151,9 @@ CMakeFiles/220FinalProject.dir/build: 220FinalProject.exe
 
 .PHONY : CMakeFiles/220FinalProject.dir/build
 
+CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/main.cpp.o.requires
 CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/Bookstore.cpp.o.requires
+CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/Book.cpp.o.requires
 
 .PHONY : CMakeFiles/220FinalProject.dir/requires
 

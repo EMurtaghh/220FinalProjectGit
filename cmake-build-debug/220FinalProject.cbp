@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/ArrayList.h">
+		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/ArrayList.inl">
+		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.h">
 			<Option target="220FinalProject"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Bookstore.cpp">
@@ -92,7 +92,7 @@
 		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Bookstore.h">
 			<Option target="220FinalProject"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/List.h">
+		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/main.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/CMakeLists.txt">

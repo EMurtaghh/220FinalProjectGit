@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Book.cpp" "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles/220FinalProject.dir/Book.cpp.o"
   "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/Bookstore.cpp" "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles/220FinalProject.dir/Bookstore.cpp.o"
+  "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/main.cpp" "/cygdrive/c/Users/bnkei/Documents/GitHub/220FinalProjectGit/cmake-build-debug/CMakeFiles/220FinalProject.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

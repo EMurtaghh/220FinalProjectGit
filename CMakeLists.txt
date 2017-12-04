@@ -3,5 +3,5 @@ project(220FinalProject)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Bookstore.cpp ArrayList.inl ArrayList.h List.h)
+set(SOURCE_FILES main.cpp Bookstore.cpp Book.cpp)
 add_executable(220FinalProject ${SOURCE_FILES})
