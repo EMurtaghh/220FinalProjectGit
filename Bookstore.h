@@ -7,10 +7,11 @@
 
 
 #include "ArrayList.h"
+#include "Book.h"
 
 class Bookstore {
 private:
-    List<Book>* library;
+    List<Book*>* library;
 
 public:
     Bookstore();

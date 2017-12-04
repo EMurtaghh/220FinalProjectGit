@@ -35,7 +35,7 @@ public:
      * @param: initialCapacity (the starting size of the array, defaults to size 5
      */
     //O(1)
-    ArrayList(T initialCapacity=5);
+    ArrayList(int initialCapacity=5);
 
     //Copy Constructor
     //O(N)
@@ -117,13 +117,15 @@ public:
     //O(1)
     void clearList();
 
+
     /**
      * gives a string representation of the current list
      * @returns a string representing the given list in the exact format shown below
      * {1, 2, 3, 4, 5}
      */
     //O(N)
-    std::string toString();
+    //std::string toString();
+
 
     /**
      * Searches an int array for a certain value

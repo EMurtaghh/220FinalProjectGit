@@ -33,11 +33,5 @@ void Book::setPrice(double newPrice) {
 }
 
 //others
-bool Book::inInventory() {
-    if(bookTitle){
-        return true;
-    }else{
-        return false;
-    }
-}
+
 

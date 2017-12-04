@@ -5,8 +5,8 @@
 #include "ArrayList.h"
 
 template <class T>
-ArrayList<T>::ArrayList(T initialCapacity){
-    array = new int[initialCapacity];
+ArrayList<T>::ArrayList(int initialCapacity){
+    array = new T[initialCapacity];
     currItemCount = 0;
     currCapacity = initialCapacity;
 }
@@ -135,7 +135,7 @@ void ArrayList<T>::clearList() {
     array = new T[currCapacity];
     currItemCount=0;
 }
-
+/*
 //may want to change the format of this to be more readable such as a list
 //with each new item on a new line
 template <class T>
@@ -152,6 +152,7 @@ std::string ArrayList<T>::toString() {
     myString.append("}");
     return myString;
 }
+ */
 
 template <class T>
 int ArrayList<T>::find(T toFind) {

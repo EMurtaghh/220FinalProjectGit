@@ -4,6 +4,9 @@
 
 #ifndef INC_220FINALPROJECT_BOOK_H
 #define INC_220FINALPROJECT_BOOK_H
+
+#include <string>
+
 class Book{
 private:
     std::string bookTitle;
@@ -25,7 +28,7 @@ public:
     //Setter functions
     void setPrice(double newPrice);
     //Other functions
-    bool inInventory();
+
 
 
 

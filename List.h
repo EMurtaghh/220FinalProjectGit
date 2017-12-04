@@ -44,7 +44,7 @@ public:
      * @returns a copy of the item at index
      * @throws out_of_range exception if index is invalid
      */
-    virtual T getValueAt(T index)=0;
+    virtual T getValueAt(int index)=0;
 
     /**
      * removes the item at index from the list, and returns a copy of that item
@@ -78,7 +78,7 @@ public:
      * @returns a string representing the given list in the exact format shown below
      * {1, 2, 3, 4, 5}
      */
-    virtual std::string toString()=0;
+    //virtual std::string toString()=0;
 
     /**
      * Searches an int array for a certain value

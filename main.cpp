@@ -7,7 +7,7 @@ int main() {
     int choice = 0;
     Bookstore* myStore = new Bookstore;
     while(choice!=2){
-        std::cout<<"Enter 0 to add a book or 1 to print the Library:"<<std::endl;
+        std::cout<<"Enter 0 to add a book or 1 to print the Library or 2 to quit:"<<std::endl;
         std::cin>>choice;
         if(choice==0){
             myStore->addBook();
