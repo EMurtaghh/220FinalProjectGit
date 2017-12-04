@@ -1,8 +1,24 @@
 //
-// Bookstore.h
+// Created by bnkei on 12/3/2017.
 //
 
-#ifndef INC_220FINALPROJECT_BOOKSTORE_H
-#define INC_220FINALPROJECT_BOOKSTORE_H
+#ifndef WORKFORFINAL_BOOKSTORE_H
+#define WORKFORFINAL_BOOKSTORE_H
 
-#endif //INC_220FINALPROJECT_BOOKSTORE_H
+
+#include "ArrayList.h"
+
+class Bookstore {
+private:
+    List<Book>* library;
+
+public:
+    Bookstore();
+    ~Bookstore();
+    void addBook();
+    void printLibrary();
+
+};
+
+
+#endif //WORKFORFINAL_BOOKSTORE_H
