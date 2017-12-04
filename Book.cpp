@@ -4,11 +4,11 @@
 #include "Book.h"
 #include <iostream>
 Book::Book(std::string bookTitle, std::string bookAuthor, double bookPrice, int haveCount, int wantCount){
-    bookTitle=bookTitle;
-    bookAuthor=bookAuthor;
-    bookPrice=bookPrice;
-    haveCount=haveCount;
-    wantCount=wantCount;
+    this->bookTitle=bookTitle;
+    this->bookAuthor=bookAuthor;
+    this->bookPrice=bookPrice;
+    this->haveCount=haveCount;
+    this->wantCount=wantCount;
 }
 //Book::Book(Book& bookToCopy){}; Will be done when needed
 //getters

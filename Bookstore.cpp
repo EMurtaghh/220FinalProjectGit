@@ -40,7 +40,7 @@ void Bookstore::addBook() {
 
 void Bookstore::printLibrary() {
     if(library->itemCount()==0){
-        std::cout<<"Library empty!"<<std::endl;
+std::cout<<"Library empty!"<<std::endl;
     }
     else {
         for (int i = 0; i < library->itemCount(); ++i) {
